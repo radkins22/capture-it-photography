@@ -1,0 +1,9 @@
+html,
+body,
+body>div,
+.App {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}

@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.myNav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: inset 0px 0px 10px black;
+}
+
+.link {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.link:hover {
+    opacity: 0.7;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo {
+    background: -webkit-linear-gradient(rgb(13, 125, 181), black, rgb(28, 143, 192), rgb(13, 125, 181));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.logo:hover {
+    background: -webkit-linear-gradient(rgb(13, 125, 181), black, rgb(28, 143, 192), rgb(13, 125, 181));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.divbar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}

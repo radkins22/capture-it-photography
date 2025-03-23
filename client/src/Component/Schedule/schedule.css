@@ -1,0 +1,36 @@
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: -1%;
+}
+
+@media (min-width: 320px) and (max-width: 1499px) {
+    .pics {
+        max-height: 400px;
+        max-width: 400px;
+    }
+}
+
+.pics {
+    height: 600px;
+    width: 600px;
+    box-shadow: 5px 0px 10px 8px rgb(13, 125, 181);
+}
+
+.buttons {
+    background-color: rgb(13, 125, 181);
+    border-color: rgb(13, 125, 181);
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background-color: rgb(41, 38, 38);
+    border-color: rgb(42, 39, 39);
+    color: rgb(13, 125, 181);
+    font-size: large;
+    font-weight: bold;
+}

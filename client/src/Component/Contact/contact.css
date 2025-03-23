@@ -1,0 +1,92 @@
+.facebook {
+    color: #3B5998;
+}
+
+.instagram {
+    color: #3F729B;
+}
+
+.linked {
+    color: #66757F;
+}
+
+.contacts {
+    background-image:
+        url(../Images/backImgBW.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 92vh;
+    overflow-y: hidden;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+.flexBtn {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.btnStyle {
+    background-color: rgb(13, 125, 181);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    border-radius: 50%;
+}
+
+.btnStyle:hover {
+    background-color: grey;
+    color: rgb(25, 200, 224);
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    border-radius: 50%;
+}
+
+.flexIcons {
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+.card {
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    border: rgb(13, 125, 181) 6px solid;
+    height: 60rem;
+    box-shadow: 14px 8px 8px rgb(66, 65, 65);
+}
+
+@media (max-width: 1250px) {
+    .card {
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+  }
+
+.card-body {
+    background-color: black;
+    color: white;
+    border: rgb(13, 125, 181) 6px solid;
+}
+
+.flex {
+    margin-left: 15%;
+}
+
+.link {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,91 @@
+.shopTitle {
+  padding-top: 2%;
+
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(13, 125, 181), white, rgb(13, 125, 181));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.giveBack{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 3%;
+}
+
+.shop {
+  background: -webkit-linear-gradient(black, #333, black, black);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.products {
+  width: 80%;
+  height: auto;
+  display: grid;
+  margin-left: 10%;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 600px;
+  height: 450px;
+  border: white 8px ridge;
+  margin-bottom: 1%;
+  box-shadow: 14px 8px 8px rgb(66, 65, 65);
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.goShop {
+  margin-bottom: 2%;
+}
+
+.addToCartBtn,
+.goShop {
+  background-color: rgb(13, 125, 181);
+  color: black;
+  font-weight: bold;
+  border: 2px solid rgb(13, 125, 181);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+}
+
+.addToCartBtn {
+  margin-bottom: 8%;
+}
+
+.addToCartBtn:hover,
+.goShop:hover {
+  background-color: rgb(151, 148, 148);
+  border: rgb(151, 148, 148);
+  color: black;
+  cursor: pointer;
+}
+
+.cartBtn {
+  text-align: center;
+  margin-bottom: 2%;
+}

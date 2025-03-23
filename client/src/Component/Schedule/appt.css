@@ -1,0 +1,24 @@
+.appt {
+  text-align: center;
+  color: white;
+  background: -webkit-linear-gradient(black, #333, black, black);
+  overflow-x: hidden;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forms {
+  margin-top: 5%;
+}
+
+.h1 {
+  margin-top: 1%;
+  padding: 1%;
+  border-bottom: rgb(13, 125, 181) 4px solid;
+  box-shadow: 8px 8px 8px rgb(66, 65, 65) ;
+  background: -webkit-linear-gradient(rgb(13, 125, 181), white, rgb(13, 125, 181));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+}
